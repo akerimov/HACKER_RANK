@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 There is a sequence of words in CamelCase as a string of letters, s, having the following properties:
     (1) It is a concatenation of one or more words consisting of English letters.
@@ -24,9 +21,6 @@ OUTPUT
 Link to the problem statement:
 https://www.hackerrank.com/challenges/camelcase/problem
 """
-
-
-# In[ ]:
 
 
 #!/bin/python3
