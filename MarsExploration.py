@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 A space explorer's ship crashed on Mars! They send a series of SOS messages to Earth for help.
 Letters in some of the SOS messages are altered by cosmic radiation during transmission. 
@@ -22,10 +19,6 @@ output:
 Link to problem statement:
 https://www.hackerrank.com/challenges/mars-exploration/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
