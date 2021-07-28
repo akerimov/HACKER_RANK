@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Julius Caesar protected his confidential information by encrypting it using a cipher. 
 Caesar's cipher shifts each letter by a number of letters. If the shift takes you past 
@@ -29,9 +26,6 @@ The first line contains the integer, , the length of the unencrypted string.
 The second line contains the unencrypted string, .
 The third line contains , the number of letters to rotate the alphabet by.
 """
-
-
-# In[ ]:
 
 
 #!/bin/python3
