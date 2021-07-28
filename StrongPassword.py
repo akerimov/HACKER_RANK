@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Louise joined a social networking site to stay in touch with her friends. 
 The signup page required her to input a name and a password. However, the 
@@ -39,10 +36,6 @@ OUPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/strong-password/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
