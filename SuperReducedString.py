@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Reduce a string of lowercase characters in range ascii[‘a’..’z’] by doing a 
 series of operations. In each operation, select a pair of adjacent letters that 
@@ -22,10 +19,6 @@ OUTPUT:
 Link to problem statement: 
 https://www.hackerrank.com/challenges/reduced-string/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
