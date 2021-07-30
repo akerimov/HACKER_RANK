@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 A weighted string is a string of lowercase English letters where each letter has a weight. 
 Character weights are 1 to 26  from  a to z. The weight of a string is the sum of the weights 
@@ -16,10 +13,6 @@ for each query, the value is Yes if q exist in U . Otherwise, append No.
 Link to problem statement: 
 https://www.hackerrank.com/challenges/weighted-uniform-string/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -76,4 +69,3 @@ def weightedUniformStrings(s, queries):
 #   fptr.write('\n'.join(result))
 #   fptr.write('\n')
 #    fptr.close()
-
