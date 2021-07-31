@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given a string of lowercase letters in the range ascii[a-z], determine the index of a character 
 that can be removed to make the string a palindrome. There may be more than one solution, but any 
@@ -20,10 +17,6 @@ OUTPUT:
 Link to problem statetment:
 https://www.hackerrank.com/challenges/palindrome-index/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -63,4 +56,3 @@ if __name__ == '__main__':
         result = palindromeIndex(s)
         fptr.write(str(result) + '\n')
     fptr.close()
-
