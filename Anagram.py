@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Two words are anagrams of one another if their letters can be rearranged to form the other word.
 Given a string, split it into two contiguous substrings of equal length. Determine the minimum 
@@ -19,10 +16,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/anagram/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -65,4 +58,3 @@ def anagram(s):
 #        result = anagram(s)
 #        fptr.write(str(result) + '\n')
 #    fptr.close()
-
