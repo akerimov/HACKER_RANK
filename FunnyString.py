@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 In this challenge, you will determine whether a string is funny or not. To determine whether 
 a string is funny, create a copy of the string in reverse e.g. abc to cba. Iterating through 
@@ -22,10 +19,6 @@ OUPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/funny-string/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -61,4 +54,3 @@ def funnyString(s):
 #        result = funnyString(s)
 #        fptr.write(result + '\n')
 #    fptr.close()
-
