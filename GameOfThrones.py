@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Dothraki are planning an attack to usurp King Robert's throne. King Robert learns of 
 this conspiracy from Raven and plans to lock the single door through which the enemy 
@@ -23,12 +20,7 @@ Link to problem statement:
 https://hpcjupyter.hpc.pce.bp.com/user/karia3/lab?
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -61,4 +53,3 @@ def gameOfThrones(s):
 #    result = gameOfThrones(s)
 #    fptr.write(result + '\n')
 #    fptr.close()
-
