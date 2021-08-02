@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given a sorted list with an unsorted number  in the rightmost cell, can you write some simple 
 code to insert  into the array so that it remains sorted? Since this is a learning exercise, 
@@ -27,10 +24,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/insertionsort1/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -73,6 +66,7 @@ def insertionSort1(n, arr):
              # print current array
             print(*arr)
             break
+    
     
 if __name__ == '__main__':
     n = int(input().strip())
