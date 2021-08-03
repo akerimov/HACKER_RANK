@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 There is a collection of rocks where each rock has various minerals embeded in it. 
 Each type of mineral is designated by a lowercase letter. There may be multiple 
@@ -24,10 +21,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/separate-the-numbers/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -73,4 +66,3 @@ def gemstones(arr):
 #    result = gemstones(arr)
 #    fptr.write(str(result) + '\n')
 #    fptr.close()
-
