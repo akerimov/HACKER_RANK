@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 A numeric string, s, is beautiful if it can be split into a sequence of two or more positive integers, 
 a[1], a[2], ..., a[n] satisfying the following conditions:
@@ -25,9 +22,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/separate-the-numbers/problem
 """
-
-
-# In[ ]:
 
 
 #!/bin/python3
@@ -71,4 +65,3 @@ if __name__ == '__main__':
     for q_itr in range(q):
         s = input()
         separateNumbers(s)
-
