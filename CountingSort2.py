@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Often, when a list is sorted, the elements being sorted are just keys to other values. 
 For example, if you are sorting files by their size, the sizes need to stay connected 
@@ -25,12 +22,8 @@ OUTPUT:
     arr[n]: print the sorted list as a single line of space-separated integers.
     
 Link to problem statement:
-https://www.hackerrank.com/challenges/countingsort1/problem
+https://www.hackerrank.com/challenges/countingsort2/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -46,7 +39,7 @@ import sys
 # The function accepts INTEGER_ARRAY arr as parameter.
 
 Link to problem statement:
-https://www.hackerrank.com/challenges/countingsort1/problem
+https://www.hackerrank.com/challenges/countingsort2/problem
 """
 
 def countingSort(arr):
@@ -66,12 +59,11 @@ def countingSort(arr):
     # return sorted array
     return sorted_arr
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-    n = int(input().strip())
-    arr = list(map(int, input().rstrip().split()))
-    result = countingSort(arr)
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
-    fptr.close()
-
+#if __name__ == '__main__':
+#    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+#    n = int(input().strip())
+#    arr = list(map(int, input().rstrip().split()))
+#    result = countingSort(arr)
+#    fptr.write(' '.join(map(str, result)))
+#    fptr.write('\n')
+#    fptr.close()
