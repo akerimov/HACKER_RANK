@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 A pangram is a string that contains every letter of the alphabet. 
 Given a sentence determine whether it is a pangram in the English alphabet. 
@@ -22,10 +19,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/pangrams/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -61,4 +54,3 @@ def pangrams(s):
 #    result = pangrams(s)
 #    fptr.write(result + '\n')
 #    fptr.close()
-
