@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Challenge
 In the InsertionSort code below, there is an error. Can you fix it? Print the array only once, when it is fully sorted.
@@ -15,10 +12,6 @@ There will be two lines of input:
 Link to problem statement:
 https://www.hackerrank.com/challenges/correctness-invariant/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 """
@@ -52,4 +45,3 @@ if __name__ == '__main__':
     arr = [int(i) for i in input().strip().split()]
     insertion_sort(n, arr)
     print(" ".join(map(str,arr)))
-
