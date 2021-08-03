@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Another sorting method, the counting sort, does not require comparison. 
 Instead, you create an integer array whose index range covers the entire 
@@ -24,10 +21,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/countingsort1/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -69,4 +62,3 @@ if __name__ == '__main__':
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
-
