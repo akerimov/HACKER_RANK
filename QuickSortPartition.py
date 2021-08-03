@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 The previous challenges covered Insertion Sort, which is a simple and intuitive sorting algorithm 
 with a running time of . In these next few challenges, we're covering a divide-and-conquer algorithm 
@@ -23,10 +20,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/quicksort1/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -67,4 +60,3 @@ def quickSort(arr):
 #    fptr.write(' '.join(map(str, result)))
 #    fptr.write('\n')
 #    fptr.close()
-
