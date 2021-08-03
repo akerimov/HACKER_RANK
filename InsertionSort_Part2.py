@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 In Insertion Sort Part 1, you inserted one element into an array at its correct sorted position. Using the same approach repeatedly, can you sort an entire array?
 Guideline: You already can place an element into a sorted array. How can you use that code to build up a sorted array, one element at a time? Note that in the first 
@@ -23,10 +20,6 @@ OUPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/insertionsort1/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -86,4 +79,3 @@ if __name__ == '__main__':
     n = int(input().strip())
     arr = list(map(int, input().rstrip().split()))
     insertionSort2(n, arr)
-
