@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given a string, remove characters until the string is made up of any two alternating characters. 
 When you choose a character to remove, all instances of that character must be removed. Determine 
@@ -22,9 +19,6 @@ OUTPUT:
 Link to problem statement: 
 https://www.hackerrank.com/challenges/two-characters/problem
 """
-
-
-# In[ ]:
 
 
 #!/bin/python3
@@ -91,10 +85,3 @@ def alternate(s):
 #    result = alternate(s)
 #    fptr.write(str(result) + '\n')
 #    fptr.close()
-
-
-# In[ ]:
-
-
-
-
