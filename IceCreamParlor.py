@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Two friends like to pool their money and go to the ice cream parlor. 
 They always choose two distinct flavors and they spend all of their money.
@@ -22,10 +19,6 @@ OUTPUT:
 Link to problem statement: 
 https://www.hackerrank.com/challenges/icecream-parlor/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -64,4 +57,3 @@ if __name__ == '__main__':
         fptr.write(' '.join(map(str, result)))
         fptr.write('\n')
     fptr.close()
-
