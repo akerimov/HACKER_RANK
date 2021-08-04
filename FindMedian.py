@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 The median of a list of numbers is essentially its middle element after sorting. 
 The same number of elements occur after it as before. Given a list of numbers with 
@@ -20,10 +17,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/find-the-median/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -67,4 +60,3 @@ def findMedian(arr):
 #    result = findMedian(arr)
 #    fptr.write(str(result) + '\n')
 #    fptr.close()
-
