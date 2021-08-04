@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Consider an array of numeric strings where each string is a positive number with anywhere 
 from  to  digits. Sort the array's elements in non-decreasing, or ascending order of their 
@@ -20,10 +17,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/big-sorting/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -57,4 +50,3 @@ if __name__ == '__main__':
     fptr.write('\n'.join(result))
     fptr.write('\n')
     fptr.close()
-
