@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Can you modify your previous Insertion Sort implementation to keep track of the number of 
 shifts it makes while sorting? The only thing you should print is the number of shifts made 
@@ -21,10 +18,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/runningtime/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -64,4 +57,3 @@ if __name__ == '__main__':
     result = runningTime(arr)
     fptr.write(str(result) + '\n')
     fptr.close()
-
