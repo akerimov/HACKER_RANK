@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Sorting is useful as the first step in many different tasks. The most common task 
 is to make finding things easier, but there are other uses as well. In this case, 
@@ -23,10 +20,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/closest-numbers/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -76,4 +69,3 @@ def closestNumbers(arr):
 #    result = findMedian(arr)
 #    fptr.write(str(result) + '\n')
 #    fptr.close()
-
