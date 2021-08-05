@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given two arrays of integers, find which elements in the second array are missing from the first array.
 If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both 
@@ -24,10 +21,6 @@ OUTPUT:
 Link to problem statement: 
 https://www.hackerrank.com/challenges/missing-numbers/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -77,4 +70,3 @@ if __name__ == '__main__':
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
-
