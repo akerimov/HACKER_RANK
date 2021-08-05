@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Watson gives Sherlock an array of integers. His challenge is to find an element of the array 
 such that the sum of all elements to the left is equal to the sum of all elements to the right.
@@ -19,10 +16,6 @@ OUTPUT:
 Link to problem statement: 
 https://www.hackerrank.com/challenges/sherlock-and-array/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -76,4 +69,3 @@ if __name__ == '__main__':
         result = balancedSums(arr)
         fptr.write(result + '\n')
     fptr.close()
-
