@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given an array of stick lengths, use  of them to construct a non-degenerate triangle with the maximum possible perimeter. 
 Return an array of the lengths of its sides as  integers in non-decreasing order. If there are several valid triangles 
@@ -24,10 +21,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/maximum-perimeter-triangle/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -66,4 +59,3 @@ if __name__ == '__main__':
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
-
