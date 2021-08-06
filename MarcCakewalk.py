@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Marc loves cupcakes, but he also likes to stay fit. Each cupcake has a calorie count, and Marc can walk a distance 
 to expend those calories. If Marc has eaten j cupcakes so far, after eating a cupcake with c calories he must walk 
@@ -20,10 +17,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/marcs-cakewalk/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
