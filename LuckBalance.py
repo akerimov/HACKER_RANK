@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Lena is preparing for an important coding competition that is preceded by a number of sequential 
 preliminary contests. Initially, her luck balance is 0. She believes in "saving luck", and wants 
@@ -27,12 +24,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/luck-balance/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -83,4 +75,3 @@ if __name__ == '__main__':
 
     fptr.write(str(result) + '\n')
     fptr.close()
-
