@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given a square grid of characters in the range ascii[a-z], rearrange elements of each row 
 alphabetically, ascending. Determine if the columns are also in ascending alphabetical order, 
@@ -21,10 +18,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/jim-and-the-orders/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -74,4 +67,3 @@ if __name__ == '__main__':
         result = gridChallenge(grid)
         fptr.write(result + '\n')
     fptr.close()
-
