@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given an array of integers, find the minimum absolute difference between any two elements in the array.
 
@@ -21,12 +18,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem 
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -58,4 +50,3 @@ if __name__ == '__main__':
     result = minimumAbsoluteDifference(arr)
     fptr.write(str(result) + '\n')
     fptr.close()
-
