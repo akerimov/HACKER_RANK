@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Jim's Burgers has a line of hungry customers. Orders vary in the time it takes to prepare them. 
 Determine the order the customers receive their orders. Start by numbering each of the customers 
@@ -27,10 +24,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/jim-and-the-orders/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -77,4 +70,3 @@ if __name__ == '__main__':
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
-
