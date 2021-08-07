@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 There are two -element arrays of integers, A and B. Permute them into some A' and B' 
 such that the relation A'[i] + B'[i] >= k holds for all i where 0<=i<n .
@@ -26,11 +23,7 @@ https://www.hackerrank.com/challenges/two-arrays/problem
 """
 
 
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -74,4 +67,3 @@ if __name__ == '__main__':
         result = twoArrays(k, A, B)
         fptr.write(result + '\n')
     fptr.close()
-
