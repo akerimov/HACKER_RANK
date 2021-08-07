@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Priyanka works for an international toy company that ships by container. Her task is to 
 the determine the lowest cost way to combine her orders for shipping. She has a list of 
@@ -23,10 +20,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/mark-and-toys/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 
@@ -71,4 +64,3 @@ if __name__ == '__main__':
     result = toys(w)
     fptr.write(str(result) + '\n')
     fptr.close()
-
