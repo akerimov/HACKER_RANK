@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Mark and Jane are very happy after having their first child. Their son loves toys, so Mark wants to buy some. 
 There are a number of different toys lying in front of him, tagged with their prices. Mark has only a certain 
@@ -25,12 +22,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/mark-and-toys/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -68,4 +60,3 @@ if __name__ == '__main__':
     result = maximumToys(prices, k)
     fptr.write(str(result) + '\n')
     fptr.close()
-
