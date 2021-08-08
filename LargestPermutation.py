@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 You are given an unordered array of unique integers incrementing from . You can swap any two elements a limited number of times. 
 Determine the largest lexicographical value array that can be created by executing no more than the limited number of swaps.
@@ -23,12 +20,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/largest-permutation/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -87,4 +79,3 @@ if __name__ == '__main__':
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
     fptr.close()
-
