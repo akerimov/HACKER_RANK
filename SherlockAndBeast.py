@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Sherlock Holmes suspects his archenemy Professor Moriarty is once again plotting something diabolical. 
 Sherlock's companion, Dr. Watson, suggests Moriarty may be responsible for MI6's recent issues with their 
@@ -30,12 +27,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/sherlock-and-the-beast/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -79,4 +71,3 @@ if __name__ == '__main__':
     for t_itr in range(t):
         n = int(input().strip())
         print(decentNumber(n))
-
