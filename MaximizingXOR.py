@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given two integers, l and r, find the maximal value of a xor b, where a and b satisfy the following condition:
 l<=a<=b<=r
@@ -21,10 +18,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/maximizing-xor/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -63,4 +56,3 @@ if __name__ == '__main__':
     result = maximizingXor(l, r)
     fptr.write(str(result) + '\n')
     fptr.close()
-
