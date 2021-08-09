@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 You are given two arrays, A and B, both containing  integers. A pair of indices (i,j) is 
 beautiful if the  element of array A is equal to the jth element of array B. In other words, 
@@ -27,12 +24,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/beautiful-pairs/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -77,4 +69,3 @@ if __name__ == '__main__':
     result = beautifulPairs(A, B)
     fptr.write(str(result) + '\n')
     fptr.close()
-
