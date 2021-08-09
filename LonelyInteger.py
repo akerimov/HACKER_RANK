@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given an array of integers, where all elements but one occur twice, find the unique element.
 
@@ -19,10 +16,6 @@ OUTPUT:
 Link to problem statement:
 https://www.hackerrank.com/challenges/largest-permutation/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -56,4 +49,3 @@ if __name__ == '__main__':
     result = lonelyinteger(a)
     fptr.write(str(result) + '\n')
     fptr.close()
-
