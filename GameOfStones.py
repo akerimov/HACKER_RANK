@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Two players called  P1 and P2 are playing a game with a starting number of stones. 
 Player 1 always plays first, and the two players move in alternating turns. 
@@ -31,12 +28,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/game-of-stones-1/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -67,4 +59,3 @@ if __name__ == '__main__':
         result = gameOfStones(n)
         fptr.write(result + '\n')
     fptr.close()
-
