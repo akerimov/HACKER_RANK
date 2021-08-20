@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Two players are playing a game of Tower Breakers! Player 1 always moves first, 
 and both players always play optimally.The rules of the game are as follows:
@@ -21,12 +18,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/tower-breakers-1/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -59,10 +51,3 @@ if __name__ == '__main__':
         result = towerBreakers(n, m)
         fptr.write(str(result) + '\n')
     fptr.close()
-
-
-# In[ ]:
-
-
-
-
