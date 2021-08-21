@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Poker Nim is another -player game that's a simple variation on a Nim game. 
 The rules of the games are as follows:
@@ -26,11 +23,7 @@ https://www.hackerrank.com/challenges/poker-nim-1/problem
 """
 
 
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -75,4 +68,3 @@ if __name__ == '__main__':
         result = pokerNim(k, c)
         fptr.write(result + '\n')
     fptr.close()
-
