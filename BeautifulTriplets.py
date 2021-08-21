@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given a sequence of inetegrs arr, a triplet (arr[i], arr[j], arr[k]) is beautiful if:
     (1) i<j<k
@@ -25,12 +22,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/beautiful-triplets/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -74,4 +66,3 @@ if __name__ == '__main__':
     result = beautifulTriplets(d, arr)
     fptr.write(str(result) + '\n')
     fptr.close()
-
