@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Two people are playing game of Misère Nim. The basic rules for this game are as follows:
     (1) The game starts with n piles of stones. Each pile has si stones.
@@ -28,11 +25,7 @@ https://www.hackerrank.com/challenges/poker-nim-1/problem
 """
 
 
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -77,4 +70,3 @@ if __name__ == '__main__':
         result = misereNim(s)
         fptr.write(result + '\n')
     fptr.close()
-
