@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Nim is the most famous two-player algorithm game. The basic rules for this game are as follows:
     (1) The game starts with a number of piles of stones. The number of stones in each 
@@ -26,12 +23,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/nim-game-1/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -66,4 +58,3 @@ if __name__ == '__main__':
         result = nimGame(pile)
         fptr.write(result + '\n')
     fptr.close()
-
