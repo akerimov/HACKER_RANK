@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Two people are playing Nimble! The rules of the game are:
     (1) The game is played on a line of  n squares.  Each square contains i coins. 
@@ -18,10 +15,6 @@ who wins the game is the first or second person to move. Assume both players mov
 Link to problem statement:
 https://www.hackerrank.com/challenges/nimble-game-1/problem
 """
-
-
-# In[ ]:
-
 
 #!/bin/python3
 import math
@@ -65,4 +58,3 @@ if __name__ == '__main__':
         result = nimbleGame(s)
         fptr.write(result + '\n')
     fptr.close()
-
