@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given the time in numerals we may convert it into words, as shown below:
 At minutes=0, use o' clock. For 1<=minutes<=30, use past, and for 30<minutes use to. 
@@ -23,12 +20,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/the-time-in-words/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -95,4 +87,3 @@ if __name__ == '__main__':
     result = timeInWords(h, m)
     fptr.write(result + '\n')
     fptr.close()
-
