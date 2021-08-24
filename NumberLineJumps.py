@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 You are choreographing a circus show with various animals. 
 For one act, you are given two kangaroos on a number line ready 
@@ -30,11 +27,7 @@ https://www.hackerrank.com/challenges/kangaroo/problem
 """
 
 
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -78,4 +71,3 @@ if __name__ == '__main__':
     result = kangaroo(x1, v1, x2, v2)
     fptr.write(result + '\n')
     fptr.close()
-
