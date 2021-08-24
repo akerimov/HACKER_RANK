@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 An English text needs to be encrypted using the following encryption scheme.
 First, the spaces are removed from the text. Let L be the length of this text.
@@ -26,12 +23,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/encryption/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -87,4 +79,3 @@ if __name__ == '__main__':
     result = encryption(s)
     fptr.write(result + '\n')
     fptr.close()
-
