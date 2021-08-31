@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 James found a love letter that his friend Harry has written to his girlfriend. 
 James is a prankster, so he decides to meddle with the letter. He changes all 
@@ -29,12 +26,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/the-love-letter-mystery/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -86,4 +78,3 @@ if __name__ == '__main__':
         result = theLoveLetterMystery(s)
         fptr.write(str(result) + '\n')
     fptr.close()
-
