@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Given an array of bird sightings where every element represents a bird type id, 
 determine the id of the most frequently sighted type. If more than 1 type has 
@@ -21,12 +18,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/migratory-birds/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -70,4 +62,3 @@ if __name__ == '__main__':
     result = migratoryBirds(arr)
     fptr.write(str(result) + '\n')
     fptr.close()
-
