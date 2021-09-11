@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 You are given a string containing characters  A and B only. Your task is to change it 
 into a string such that there are no matching adjacent characters. To do this, you are 
@@ -22,12 +19,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/alternating-characters/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
@@ -68,4 +60,3 @@ if __name__ == '__main__':
         result = alternatingCharacters(s)
         fptr.write(str(result) + '\n')
     fptr.close()
-
