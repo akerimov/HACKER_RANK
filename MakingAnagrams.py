@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 We consider two strings to be anagrams of each other if the first string's letters can be rearranged to form the second string. 
 In other words, both strings must contain the same exact letters in the same exact frequency. For example, bacdc and dcbac are 
@@ -27,12 +24,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/making-anagrams/problem
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
