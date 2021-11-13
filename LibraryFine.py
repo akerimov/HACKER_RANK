@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 """
 Our local library needs your help! Given the expected and actual return dates for a library book, create a program that calculates the fine (if any). 
 The fee structure is as follows:
@@ -25,12 +22,7 @@ Link to problem statement:
 https://www.hackerrank.com/challenges/library-fine/problem?isFullScreen=true
 """
 
-
-# In[ ]:
-
-
 #!/bin/python3
-
 import math
 import os
 import random
